@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ANT+
 lib64/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so
@@ -87,8 +86,7 @@ framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-=======
+
 # QMI
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
->>>>>>> 4b47a81... sdm845-common: Add initial list of common blobs
