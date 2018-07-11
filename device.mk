@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
+    init.qcom.rc \
     init.target.rc
 
 # Input
