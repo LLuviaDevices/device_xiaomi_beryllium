@@ -37,6 +37,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Ambient Display
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # ANT+
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
