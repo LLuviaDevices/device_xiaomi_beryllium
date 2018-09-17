@@ -45,7 +45,7 @@ TARGET_KERNEL_CONFIG := beryllium_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
 # Platform
-TARGET_BOARD_PLATFORM := sdm845
+#TARGET_BOARD_PLATFORM := sdm845
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
 
 # ANT+
@@ -97,7 +97,7 @@ TARGET_USES_MKE2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # QCOM
-BOARD_USES_QCOM_HARDWARE := true
+#BOARD_USES_QCOM_HARDWARE := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
