@@ -12,8 +12,6 @@ export VENDOR=xiaomi
 
 export DEVICE_BRINGUP_YEAR=2018
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
-
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
