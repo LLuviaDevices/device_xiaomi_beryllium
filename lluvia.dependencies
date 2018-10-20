@@ -1,10 +1,6 @@
 [
   {
-    "repository": "android_device_xiaomi_sdm845-common",
-    "target_path": "device/xiaomi/sdm845-common"
-  },
-  {
-    "repository": "android_kernel_xiaomi_sdm845",
+    "repository": "trueno_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845"
   },
   {
