@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (c) 2006, The Android Open Source Project
+/**
+ * Copyright (c) 2009, The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,17 +14,16 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
-*/
+ */
 -->
 <resources>
-    <!-- Height of the status bar header bar -->
-    <dimen name="status_bar_header_height">164dp</dimen>
+    <!-- Set the automatic brightness mode on by default -->
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
 
-    <!-- Height of the status bar header bar when expanded -->
-    <dimen name="status_bar_header_height_expanded">164dp</dimen>
-
-    <!-- Height of the status bar header bar when on Keyguard -->
-    <dimen name="status_bar_header_height_keyguard">90px</dimen>
-
-    <dimen name="volume_dialog_padding_top">84px</dimen>
+    <!-- Default clock position
+         * 0: show the clock in the right position (LTR)
+         * 1: show the clock in the center
+         * 2: show the clock in the left position (LTR)
+    -->
+    <integer name="def_clock_position">2</integer>
 </resources>
